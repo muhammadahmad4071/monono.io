@@ -281,10 +281,6 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
@@ -323,11 +319,6 @@
       gap: calc(var(--spacing) * 0);
     }
   }
-  .md\:p-0 {
-    @media (width >= 48rem) {
-      padding: calc(var(--spacing) * 0);
-    }
-  }
   .md\:text-6xl {
     @media (width >= 48rem) {
       font-size: var(--text-6xl);
@@ -337,7 +328,7 @@
 }
 body {
   font-family: Poppins, 'sans-serif';
-  background-image: url('./assets/background-monono-2.png');
+  background-image: url('./assets/background-monono-2.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
