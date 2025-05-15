@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: Poppins, 'sans-serif';
+  background-image: url('./assets/background-monono-2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+#heading::before {
+  content: '';
+  position: absolute;
+  top: -1.5rem;
+  left: 2px;
+  height: 2px; /* adjust as needed */
+  width: 1.2ch;
+  background-color: #FF4A97;
+}
